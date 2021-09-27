@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'lato-light';
+    src: url('lato-light'),
+    url('../fonts/Lato-Light.ttf') format('ttf'),
+    url('../fonts/Lato-Light.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
