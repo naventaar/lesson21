@@ -1,5 +1,119 @@
+@import url(../css/fonts.css);
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.header__top{
+    background-color:#194277;
+    color:white;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    padding:1% 0;
+}
+.header__title{
+    font-size: 14px;
+    font-family: Lato-Regular;
+}
+.header__button{
+    color:#194277;
+    font-size: 12px;
+    font-family: Lato-Bold;
+    border:none;
+    background-color: #fff;
+    border-radius: 25px;
+    width:10%;
+    padding:0.5% 0;
+    margin-left: 2%;
+}
+.header__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding: 2% 0;
+}
+.header__box{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header__container__title{
+    font-size: 50px;
+    font-family: Lato-Black; 
+    text-align: center;
+    width:60%;
+    margin-top: 2%;
+}
+.header__container__text{
+    font-size: 16px;
+    font-family: Lato-Light; 
+    text-align: center;
+    text-transform: uppercase;
+    width:55%;
+    margin-top: 2%;
+}
+.header__container__button{
+    color:#3695ff;
+    font-size: 16px;
+    font-family: Lato-Bold;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    width:10%;
+    padding:0.8% 0;
+    margin:4% 0;
+}
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    visibility: hidden;
+    background-color: #fff;
+    width:90%;
+    margin: 0 -92%;
+}
+.drop__link{
+    text-decoration: none;
+    color:white;
+    font-size: 50px;
+    color: #d2d2d2;
+    font-family: Lato-Light; 
+    margin:1% 0;
+}
+.fa-bars{
+    color:white;
+    margin-left: -90%;
+}
+.dropdown{
+    visibility: visible;
+    float: right;  
+}
+.fa-stack,
+.fa-times{
+    color:#d2d2d2;
+}
+.fa-times{
+    margin:2% 0 2% 95%;
+}
+.drop__link:hover,
+.fa-stack:hover,
+.fa-times:hover,
+.language__text:hover{
+    color:#3687fe;
+}
+.language__text{
+    color: #d2d2d2;
+    font-family: Lato-Regular; 
+}
+.dropdown__language{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0 2% 85%;
+}
+.dropdown:hover .dropdown-content {visibility: visible;
 }
