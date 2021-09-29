@@ -13,7 +13,8 @@
 @font-face {
     font-family: Lato-Regular;
     src: url(../fonts/Lato-Regular.ttf);
-}@font-face {
+}
+@font-face {
     font-family: 'lato-light';
     src: url('lato-light'),
     url('../fonts/Lato-Light.ttf') format('ttf'),

@@ -1,4 +1,4 @@
-@import url(./fonts.css);
+@import url(fonts.css);
 * {
     padding: 0;
     margin: 0;
@@ -115,19 +115,20 @@
     flex-direction: row;
     margin: 2% 0 2% 85%;
 }
-.dropdown:hover .dropdown-content {visibility: visible;
-}}
-.block{
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+}
+.block {
     max-width: 100%;
     padding: 0 10%;
 }
-.latest{
+.block_latest {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.latest__title{
+.block__title {
     font-family: 'lato-light';
     font-size: calc(15px + 50 * (100vw / 1800));
     color: #3695ff;
@@ -151,4 +152,69 @@
 }
 .list:nth-child(3){
     padding: 5% 0 200px 0;
+}
+.block_expertise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    background-color: #f1f8ff;  
+    padding: 5vw 20vw;     
+}
+.block__title_expertise {
+    padding: 0;
+}
+.list_expertise{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    max-width: 100%;
+    gap: 1.5%;
+    flex-wrap: wrap;
+    margin-top: 3vw;
+}
+.list_expertise li:nth-child(2){
+    margin: 0;
+}
+.list_expertise:nth-child(3){
+    padding: 0;
+}
+.expertise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    margin-top: 5vw;    
+}
+.expertise__image {
+    height: 140px;
+    width: 140px;
+    border: 2px solid #b7c0c9;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+.expertise__image:hover {
+    background-color: #3677fd;
+}
+.expertise__image:hover .expertise__icon{
+    fill: #ffffff;
+}
+.expertise__icon {
+    fill: #3677fd;
+    height: 50%;    
+    width: 100%;    
+}
+.expertise__title {
+    font-family: "Lato-Bold";
+    font-size: 24px;
+    text-transform: uppercase;    
+    color: #3677fd;
+}
+.expertise__description {
+    font-family: "Lato-Regular";    
+    font-size: 16px;
+    line-height: 35px;
 }
